@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  tokenUrl: 'https://integra1.solutions.webfg.ch/restweb/oauth/token',
+  quotesUrl: 'https://integra1.solutions.webfg.ch/restweb/quotes/2970161-1058-814?fields= LVAL_NORM,CLOSE_ADJ_NORM,NC2_PR_NORM,NC2_NORM,VOL,TUR,PY_CLOSE,YTD_PR_NORM',
+  username: 'Your username here',
+  userAndPassword: 'Your base64 user and password here'
 };
 
 /*
