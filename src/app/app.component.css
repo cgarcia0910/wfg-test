@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  width: 60%;
+}
+
+.values {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.table {
+  font-family: sans-serif;
+  font-size: 12px;
+  color: gray;
+}
+
+.row:nth-child(even) {
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
